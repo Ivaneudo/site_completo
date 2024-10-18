@@ -1,0 +1,55 @@
+:root{
+    --cor_de_fundo: #d7d7d785;
+    --rascunho: #eaeaea;
+    --cor_do_rodape: #c12387;
+
+}
+
+
+.lupa{
+    width: 20px;
+    height: 20px;
+}
+
+.pesquisa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eadee6;
+    border: 1px solid #e11ab0;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.pes{
+    width: 230px;
+    height: 24px;
+    outline: none;
+    border: none;
+    background: none;
+    color: black;
+}
+
+
+main{
+    width: 100vw;
+    height:100vh;
+    padding: 25px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.livros{
+    width: 391px;
+    height: 436px;
+    border-radius: 24px;
+    background-color: black;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.primeiraFileira{
+    display: flex;
+    
+}

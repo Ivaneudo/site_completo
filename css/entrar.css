@@ -1,10 +1,16 @@
+:root{
+    --cor_de_fundo: #d7d7d785;
+    --rascunho: #eaeaea;
+    --cor_do_rodape: #c12387;
+}
+
 .formulario{
     display: grid;
     place-items: center;
 }
 
 .titulo{
-    background-color: #FFCBEC;
+    background-color: var(--cor_do_rodape);
     width: 200px;
     position: absolute;
     border-radius: 15px;
@@ -24,6 +30,7 @@ form{
     margin-top: 35px;
     background-color: white;
     font-size: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.523);
 }
 
 form button{
