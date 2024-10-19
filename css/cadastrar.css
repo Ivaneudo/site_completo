@@ -2,6 +2,8 @@
     --cor_de_fundo: #d7d7d785;
     --rascunho: #eaeaea;
     --cor_do_rodape: #c12387;
+    --cor_de_fundo_original: #fbb1e0;
+    --cor_do_rodape_original: #FFCBEC;
 }
 
 .formulario{
@@ -10,7 +12,7 @@
 }
 
 .titulo{
-    background-color: #FFCBEC;
+    background-color: var(--cor_do_rodape);
     width: 200px;
     position: absolute;
     border-radius: 15px;
@@ -33,11 +35,11 @@ form{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.523);
 }
 
-form button{
+/* form button{
     position: absolute;
     top: 450px;
     right: 560px;
-}
+} */
 
 .primeiro{
     margin-top: 20px;
@@ -52,6 +54,11 @@ input{
     height: 30px;
     border: 1.5px solid pink;
     border-radius: 10px;
+    padding: 0 0 0 3px;
+}
+
+label input{
+    border-bottom: 5px;
 }
 
 .button{
@@ -59,6 +66,7 @@ input{
     display: flex;
     align-items: center;
     text-align: center;
+    justify-content: center;
 }
 
 button{
