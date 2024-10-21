@@ -4,9 +4,14 @@
     --cor_do_rodape: #c12387;
 }
 
+/* body{
+    background-color: var(--cor_de_fundo);
+} */
+
 .formulario{
     display: grid;
     place-items: center;
+    /* background-color: var(--cor_de_fundo); */
 }
 
 .titulo{
@@ -64,6 +69,7 @@ label input{
 .redefinir{
     font-size: 10px;
     margin-top: 0;
+    margin-left: 5px;
 }
 
 .redefinir a{
