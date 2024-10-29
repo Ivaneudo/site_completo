@@ -10,6 +10,18 @@ main{
     width: 100VW;
 }
 
+.alinha-carrinho{
+    display: flex;
+    flex-direction: row;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+    width: 100%;
+}
+
 .produto{
     background-color: var(--cor_do_rodape);
     border-radius: 25px;
@@ -73,13 +85,14 @@ main{
 }
 
 .finalizar{
+    /* background-color: rgba(0, 0, 0, 0.074); */
+    width: 300px;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    left: 85vw;
-    /* background-color: rgba(0, 0, 0, 0.181); */
+    justify-content: start;
+    align-items: center;
+    margin-top: 15px;
     
-
 }
 
 button{

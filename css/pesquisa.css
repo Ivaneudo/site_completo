@@ -1,0 +1,47 @@
+.topo{
+    width: 100vw;
+    height: 60px;
+    background-color: var(--cor_do_rodape);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+}
+
+.lupa{
+    width: 20px;
+    height: 20px;
+}
+
+.pesquisa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eadee6;
+    border: 1px solid #e11ab0;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.pes{
+    width: 230px;
+    height: 24px;
+    outline: none;
+    border: none;
+    background: none;
+    color: black;
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#carrinho{
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
+}
