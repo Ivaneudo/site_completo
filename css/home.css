@@ -6,47 +6,14 @@
     --tipo_capa: #0993D8;
 }
 
-
-/* .lupa{
-    width: 20px;
-    height: 20px;
+body{
+    margin: 0;
+    /* overflow-x: hidden !important; */
 }
-
-.pesquisa{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #eadee6;
-    border: 1px solid #e11ab0;
-    padding: 10px;
-    border-radius: 25px;
-}
-
-.pes{
-    width: 230px;
-    height: 24px;
-    outline: none;
-    border: none;
-    background: none;
-    color: black;
-}
-
-.block{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-#carrinho{
-    width: 30px;
-    height: 30px;
-    margin-left: 40px;
-} */
 
 main{
     width: 100vw;
-    height:100vh;
+    /* height:100vh; */ /*! teste para saber o que tá dando rolagem*/
     padding: 15px;
     /* display: flex;
     flex-direction: column;
@@ -54,8 +21,8 @@ main{
 }
 
 .livros{
-    width: 391px;
-    height: 436px;
+    min-width: 391px;
+    max-height: 436px;
     border-radius: 24px;
     background-color: rgba(101, 100, 100, 0.199);
     margin-left: 15px;
@@ -65,11 +32,12 @@ main{
 
 .primeiraFileira{
     display: flex;
+    overflow-x: scroll;
     
 }
 
 .sentralizar{
-    width: 100%;
+    /* width: 100%; */ /*! teste*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,7 +47,7 @@ main{
 }
 
 .img-livro{
-    width: 250px;
+    /* width: 250px; */ /*! teste*/
     height: 300px;
     background-color: black ;
 }
@@ -105,13 +73,13 @@ main{
 }
 
 .valores{
-    width: 100%;
+    /* width: 100%; *//*! teste*/
     height: 30px;
     /* background-color: red; */
 }
 
 .desconto{
-    width: 100%;
+    /* width: 100%; */ /*! teste*/
     display: flex;
     flex-direction: row ;
     

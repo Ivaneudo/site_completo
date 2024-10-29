@@ -15,11 +15,21 @@
     font-family: "Poppins", sans-serif;
 }
 
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    widows: 5px;
+    height: 2px;
+    background-color: pink;
+}
+
 body{
     background-color: var(--cor_de_fundo);
     width: 100vw;
     height: 100vh;
-    /* overflow: hidden; */
+    overflow-x: hidden;
 }
 
 .topo{
@@ -30,7 +40,8 @@ body{
     align-items: flex-start;
     justify-content: space-around;
     align-items: center;
-    border-radius: 0 0 20px 20px;
+    /* border-radius: 0 0 20px 20px;
+    overflow: hidden; */
 }
 
 .logo-img img{
