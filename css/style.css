@@ -1,6 +1,9 @@
+/* ? Todas as paginas deste site devem receber um link desse arquivo CSS, nele estão contidas estilos indispnesaveis, possiveis autoreações podem ser feitas com outros arquivos */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
+    /* ? Variaveis com as imagem do site (a palheta de cor ainda será votada!) */
     --cor_de_fundo: #d7d7d755;
     --rascunho: #eaeaea;
     --cor_do_rodape: #c12387;
@@ -9,6 +12,7 @@
 }
 
 *{
+    /* ? Estilos gerais do site */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,11 +20,13 @@
 }
 
 ::-webkit-scrollbar{
+    /* ? Estilo do trilho da barra de rolagem */
     width: 5px;
     height: 5px;
 }
 
 ::-webkit-scrollbar-thumb{
+    /* ? Estilo da barra de rolagem */
     widows: 5px;
     height: 2px;
     border-radius: 30px;
@@ -28,34 +34,40 @@
 }
 
 body{
+    /* ? Estilo geral do body */
     background-color: var(--cor_de_fundo);
     width: 100vw;
     height: 100vh;
-    overflow-x: hidden;
+    overflow-x: hidden; /* ? Usado para bloquear a rolagem lateral do body */
 }
 
 .topo{
+    /* ? Estilo geral do topo */
     width: 100vw;
     height: 60px;
     background-color: var(--cor_do_rodape);
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0px 100px;
     /* border-radius: 0 0 20px 20px;
     overflow: hidden; */
 }
 
 .logo-img img{
+    /* ? tamanho da imagem da logo */
     width: 50px;
     height: 50px;
 }
 
 .logo-texto{
+    /* ? tamanho da fonte */
     font-size: 24px;
 }
 
 .logo-e-titulo {
+    /* ? deixando tudo um do lado do outro */
     display: flex;
     align-items: center;
     flex-direction: row;
