@@ -54,7 +54,7 @@ main{
     display: flex;
     flex-direction: start;
     justify-content: center;
-    margin: 15px;
+    margin: 10px -20px 10px -20px;
     /* background-color: black; */
 }
 
@@ -94,8 +94,10 @@ main{
     justify-content: space-between;
     align-items: end;
     margin-top: 15px;
+    margin-bottom: 20px;
     border-top: black 1px solid;
 }
+
 
 .todos{
     display: flex;
@@ -112,6 +114,7 @@ main{
 
 .position{
     margin-top: 10px;
+    /* background-color: #434343; */
 }
 
 button{
