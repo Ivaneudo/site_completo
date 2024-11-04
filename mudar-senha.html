@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookstore Online</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/cadastrar.css">
-    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/entrar.css">
     <script src="js/menu-animado.js"></script>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 </head>
 <body>
     <header class="topo">
@@ -48,26 +48,20 @@
     <main>
         <section class="formulario">
             <section class="titulo">
-                <h1>Cadastrar-se</h1>
+                <h1>Atualizar</h1>
             </section>
             <form action="" method="post">
-                <!-- ? Formulário que usuários novos poderam se cadastrar e conheser nosso site -->
-                <label for="" class="primeiro">Usuário</label>
-                <input type="text" placeholder="Digite seu usuário" name="usuario">
-                <label for="">E-mail:</label>
-                <input type="email" placeholder="Digite seu e-mail" name="email">
-                
-                <label for="">Data de nascimento</label>
-                <input type="date" placeholder="MM/DD/YYYY" name="data">
-                
-                <label for="">Senha:</label>
-                <input type="password" placeholder="Digite sua senha">
-                <label for="">Confirme sua senha</label>
-                <input type="password" placeholder="Confirme sua senha">
-                
+                <!-- ? Formulario para o usuário já cadastrado poder voltar para o site -->
+                <label for="" class="primeiro">E-mail</label>
+                <input type="text" placeholder="Digite seu E-mmail" name="usuario" class="user">
+                <label for="">Nova senha:</label>
+                <input type="password" placeholder="Digite sua nova senha" class="place">
+                <label for="">Confirmar senha:</label>
+                <input type="password" placeholder="Confirme sua nova senha" class="place">
+            
                 <section class="button">
-                    <!-- ? Botão que levara as informações sobre o novo livro para o banco de dados -->
-                    <button onclick="enviar()">Cadastra-se</button>
+                    <!-- ? Botão que levara a pagina principal -->
+                    <button onclick="Entrar()" returne="false">entrar</button>
                 </section>
             </form>
         </section>

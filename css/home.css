@@ -13,7 +13,7 @@ body{
 
 main{
     width: 100vw;
-    /* height:100vh; */ /*! teste para saber o que tá dando rolagem*/
+    height:100vh;  /*! teste para saber o que tá dando rolagem*/
     padding: 15px;
     /* display: flex;
     flex-direction: column;
@@ -32,7 +32,7 @@ main{
 
 .primeiraFileira{
     display: flex;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     
 }
 
@@ -110,4 +110,18 @@ main{
 
 .por, .vreal{
     margin-top: 15px;
+}
+
+@media screen and (max-width: 1024px){
+    .primeiraFileira{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
