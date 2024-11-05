@@ -138,6 +138,11 @@ button{
     table{
         /* background-color: black; */
         width: 100vw;
+        padding: 0 5px 0 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     /* ?Estilizando a carra de pesquisa do carrinho */
@@ -172,8 +177,13 @@ button{
     }    
 
     .topo{
-        position: fixed;
+        position: relative;
         z-index: 1;
+        margin-bottom: 750px;
+    }
+
+    .produto{
+        width: 380px;
     }
 
     .selecionar{

@@ -210,6 +210,20 @@ main .infor{
 
 @media screen and (max-width: 1024px){
     /* ! Cabeçalho */
+    ::-webkit-scrollbar{
+        /* ? Estilo do trilho da barra de rolagem */
+        width: 5px;
+        height: 5px;
+    }
+    
+    ::-webkit-scrollbar-thumb{
+        /* ? Estilo da barra de rolagem */
+        widows: 5px;
+        height: 2px;
+        border-radius: 30px;
+        background-color: pink;
+    }
+
     .topo{
         /* ? Estilo geral do topo */
         width: 100vw;
