@@ -15,9 +15,9 @@ main{
     width: 100vw;
     height:100vh;  /*! teste para saber o que tá dando rolagem*/
     padding: 15px;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center; */
+    align-items: center;
 }
 
 .livros{
@@ -32,22 +32,17 @@ main{
 
 .primeiraFileira{
     display: flex;
-    /* overflow-x: scroll; */
-    
 }
 
 .sentralizar{
-    /* width: 100%; */ /*! teste*/
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: rgba(0, 0, 0, 0.156) ; */
 
 
 }
 
 .img-livro{
-    /* width: 250px; */ /*! teste*/
     height: 300px;
     background-color: black ;
 }
@@ -57,7 +52,6 @@ main{
     flex-direction: column;
     align-items: start;
     width: 100%;
-    /* background-color: rgba(255, 255, 0, 0.319); */
 }
 
 .autores, .Tcapa, .parcelamento{
@@ -73,13 +67,10 @@ main{
 }
 
 .valores{
-    /* width: 100%; *//*! teste*/
     height: 30px;
-    /* background-color: red; */
 }
 
 .desconto{
-    /* width: 100%; */ /*! teste*/
     display: flex;
     flex-direction: row ;
     
