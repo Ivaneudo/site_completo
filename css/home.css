@@ -103,6 +103,53 @@ main{
     margin-top: 15px;
 }
 
+footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    /* height: 100%; */
+    color: black;
+    background-color: var(--cor_do_rodape);
+    margin-top: 25%;
+    align-items: center;
+}
+
+#desenvolvedor, #designer, #documentação{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+    color: black;
+    /* height: 100%; */
+    /* background-color: blue; */
+}
+
+#desenvolvedor, #designer, #documentação, ul{
+    color: black;
+    list-style: none;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 0;
+    padding-left: 0;
+    font-size: 20pt;
+    height: 100%;
+    width: 100%;
+    /* background-color: #6d6a6a3a; */
+}
+
+#desenvolvedor, #designer, #documentação, ul, .nome{
+    font-size: 10pt;
+}
+
+#desenvolvedor, #designer, #documentação, li, a{
+    gap: 1;
+    font-size: 8pt;
+    padding: 5px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 @media screen and (max-width: 1024px){
     body{
         overflow-x: hidden;
