@@ -33,7 +33,8 @@ main{
 }
 
 .Fileira{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .sentralizar{
@@ -154,6 +155,7 @@ footer{
     flex-direction: row;
     align-items: center;
 }
+
 @media screen and (max-width: 1024px){
     body{
         overflow-x: hidden;

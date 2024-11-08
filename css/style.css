@@ -126,7 +126,6 @@ body{
 /* ? Animação puchada do JavaScript */
 .btn.ativar .linha:nth-child(1){
     transform: translateY(7px) rotate(-45deg);
-    /* background-color: red; */
 }
 
 .btn.ativar .linha:nth-child(2){
