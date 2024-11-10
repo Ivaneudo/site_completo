@@ -78,3 +78,88 @@ button{
     border: 1.5px solid rgb(255, 29, 206);
     border-radius: 25px;
 }
+
+@media screen and (max-width: 1024px){
+    body{
+        overflow-x: hidden;
+    }
+
+    main{
+        height: calc(100vh + 100px);
+    }
+
+    /* ?Estilizando a carra de pesquisa do carrinho */
+    .pesquisa{
+        /* ? Section que vai onde fica o input e a imagem da lupa */
+        padding: 5px;
+        border-radius: 25px;
+        width: 220px;
+        height: 50px;
+        margin-left: 10;
+        margin-right: 0;
+    }
+    
+    .pes{
+        /* ? Estilo do input */
+        width: 100px;
+    }
+    /* ? Estilo do carrinho */
+    .carrinho{
+        /* background-color: rgba(0, 0, 0, 0.123); */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+    }
+    
+    /* ? Estilo do nome do site */
+    .logo-texto, h3{
+        font-size: 12pt;
+    }    
+
+    .topo{
+        position: relative;
+        z-index: 1;
+    }
+
+    .disponibilidade{
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .produto, .informes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .produto img{
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+
+    .informe{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+        margin-top: 10px;
+        margin-left: 5px;
+        width: 100%;
+    }
+
+    .sonopse{
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.199);
+    }
+
+    .button{
+        align-items: center;
+    }
+}
