@@ -72,10 +72,11 @@ main{
 }
 
 button{
-    background-color: white;
-    width: 150px;
+    background-color: rgba(189, 171, 171, 0.626);
+    width: 160px;
     height: 30px;
-    border: 1.5px solid rgb(255, 29, 206);
+    border: 1px solid black;
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.758);
     border-radius: 25px;
 }
 
