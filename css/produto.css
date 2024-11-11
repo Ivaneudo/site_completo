@@ -1,3 +1,4 @@
+/* ? Variaveis de cor para o site. */
 :root{
     --cor_de_fundo: #d7d7d785;
     --rascunho: #eaeaea;
@@ -6,6 +7,7 @@
     --tipo_capa: #0993D8;
 }
 
+/* ? Define onde firaca a disponibilidade do produto. */
 .disponibilidade{
     display: flex;
     justify-content: end;
@@ -24,33 +26,38 @@
     padding: 15px;
 }
 
+/* ? Define o quanto arredondado será a borda da foto do produto. */
 .produto img{
     border-radius: 5px;
     width: 200px;
     height: 300px;
 }
 
+/* ? Vai definir como os elementos dos informes vai se comportar e se alinhas dentro da section. */
 .informes{
     display: flex;
     flex-direction: row;
 }
 
+/* ? Define o tamanho da section onde ficara a sinopse e como o texto vai estar justificado. */
 .sonopse{
     width: 500px;
     text-align: justify;
     margin-left: 10px;
 }
 
+/* ? Estilização do tamnanho da borda do hr */
 .sonopse hr{
     margin: 10px 0px 10px 0px;
 }
 
-
+/* ? Cor e tamanho da fonte dos nomes dos outores. */
 .autores{
     color: white;
     font-size: 14px;
 }
 
+/* ? Estilização da section do botão, tamanho, como os elementos se portão dentro dele, e quanto de paddin tem entre a borda e os elementos internos */
 .button{
     width: 100%;
     display: flex;
@@ -62,10 +69,12 @@
     padding: 10px;
 }
 
+/* ? Quanto de margin o p dentro do botão tem */
 .button p{
     margin-right: 20px;
 }
 
+/* ? Estilização do botão, cor, tamanho, altura, bordar, etc... */
 button{
     background-color: rgb(227, 207, 207);
     width: 160px;
@@ -116,11 +125,13 @@ button{
         font-size: 12pt;
     }    
 
+    /* ? Muda a posição do topo */
     .topo{
         position: relative;
         z-index: 1;
     }
 
+    /* ? Define a forma que a disponibilidade do produto irá se comportar quando o site estiver responsivo. */
     .disponibilidade{
         display: flex;
         justify-content: start;
@@ -128,6 +139,7 @@ button{
         margin-bottom: 10px;
     }
 
+    /* ? Define como as section a seguir iram se comportar e deixam os itens dispostos.*/
     .produto, .informes{
         display: flex;
         flex-direction: column;
@@ -136,11 +148,13 @@ button{
         align-items: center;
     }
 
+    /* ? Define o quanto aredondaodo e distante a imagem está dos outros enementos */
     .produto img{
         border-radius: 10px;
         margin-left: 10px;
     }
 
+    /* ? Define o tamnho e como o informe irá se comportar. */
     .informe{
         display: flex;
         flex-direction: column;
@@ -151,10 +165,12 @@ button{
         width: 100%;
     }
 
+    /* ? Define o tamanho da section. */
     .sonopse{
         width: 100%;
     }
 
+    /* ? Deixando os intens no centro. */
     .button{
         align-items: center;
     }
