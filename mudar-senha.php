@@ -24,9 +24,9 @@
             <nav>
                 <!-- ? Links para a navegação entre as paginas de login -->
                 <ul class="menu">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="cadastrar.html">Cadastrar-se</a></li>
-                    <li><a href="entrar.html">Entrar</a></li>
+                    <li><a href="index.php">Inicio</a></li>
+                    <li><a href="cadastrar.php">Cadastrar-se</a></li>
+                    <li><a href="entrar.php">Entrar</a></li>
                 </ul>
                 <!-- ? Botão animado do menu mobile -->
                 <button class="btn" onclick="BtnAnimado()">
@@ -37,9 +37,9 @@
                 <!-- ? Menu igual que só será visivel caso o usuário clique no botão acima. -->
                 <section class="menu-mobile" id="menu-mobile" onclick="BtnAnimado()">
                     <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="cadastrar.html">Cadastrar-se</a></li>
-                        <li><a href="entrar.html">Entrar</a></li>
+                        <li><a href="index.php">Inicio</a></li>
+                        <li><a href="cadastrar.php">Cadastrar-se</a></li>
+                        <li><a href="entrar.php">Entrar</a></li>
                     </ul>
                 </section>
             </nav>
@@ -50,14 +50,14 @@
             <section class="titulo">
                 <h1>Atualizar</h1>
             </section>
-            <form action="" method="post">
+            <form action="php/atualizar_senha.php" method="post">
                 <!-- ? Formulario para o usuário já cadastrado poder voltar para o site -->
                 <label for="" class="primeiro">E-mail</label>
-                <input type="text" placeholder="Digite seu E-mmail" name="usuario" class="user">
+                <input type="text" placeholder="Digite seu E-mmail" name="email" class="user" required>
                 <label for="">Nova senha:</label>
-                <input type="password" placeholder="Digite sua nova senha" class="place">
+                <input type="password" placeholder="Digite sua nova senha" class="place" name = "senha" required>
                 <label for="">Confirmar senha:</label>
-                <input type="password" placeholder="Confirme sua nova senha" class="place">
+                <input type="password" placeholder="Confirme sua nova senha" class="place" name = "senhaConfirm" required>
             
                 <section class="button">
                     <!-- ? Botão que levara a pagina principal -->

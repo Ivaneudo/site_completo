@@ -60,6 +60,9 @@ main{
 
 .img img{
     border-radius: 10px;
+    height: 220px;
+    margin-left: 20px;
+    margin-right: 40px;
 }
 
 .informe{

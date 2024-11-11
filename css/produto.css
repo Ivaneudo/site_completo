@@ -1,4 +1,3 @@
-/* ? Variaveis de cor para o site. */
 :root{
     --cor_de_fundo: #d7d7d785;
     --rascunho: #eaeaea;
@@ -7,18 +6,24 @@
     --tipo_capa: #0993D8;
 }
 
-/* ? Define onde firaca a disponibilidade do produto. */
+main{
+    /* width: 100vw; */
+    height: 100px;
+    /* padding: 10px; */
+}
+
 .disponibilidade{
     display: flex;
     justify-content: end;
     width: 100%;
 }
 
-/* ? Define o tamnho, cor e como os elementos dentro da section iram se comportar. */
 .produto{
+    width: 100%;
+    /* height: 100%; */
     background-color: var(--cor_do_rodape);
     margin: 10px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -26,36 +31,33 @@
     padding: 15px;
 }
 
-/* ? Define o quanto arredondado será a borda da foto do produto. */
 .produto img{
     border-radius: 5px;
+    width: 200px;
+    height: 300px;
 }
 
-/* ? Vai definir como os elementos dos informes vai se comportar e se alinhas dentro da section. */
 .informes{
     display: flex;
     flex-direction: row;
 }
 
-/* ? Define o tamanho da section onde ficara a sinopse e como o texto vai estar justificado. */
 .sonopse{
     width: 500px;
     text-align: justify;
     margin-left: 10px;
 }
 
-/* ? Estilização do tamnanho da borda do hr */
 .sonopse hr{
     margin: 10px 0px 10px 0px;
 }
 
-/* ? Cor e tamanho da fonte dos nomes dos outores. */
+
 .autores{
     color: white;
     font-size: 14px;
 }
 
-/* ? Estilização da section do botão, tamanho, como os elementos se portão dentro dele, e quanto de paddin tem entre a borda e os elementos internos */
 .button{
     width: 100%;
     display: flex;
@@ -63,15 +65,14 @@
     align-items: end;
     text-align: center;
     justify-content: end;
+    /* background-color: black; */
     padding: 10px;
 }
 
-/* ? Quanto de margin o p dentro do botão tem */
 .button p{
     margin-right: 20px;
 }
 
-/* ? Estilização do botão, cor, tamanho, altura, bordar, etc... */
 button{
     background-color: rgba(189, 171, 171, 0.626);
     width: 160px;

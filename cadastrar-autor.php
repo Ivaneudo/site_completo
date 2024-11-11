@@ -31,12 +31,12 @@
             <form action="" method="post">
                 <!-- ? Formulario para o administrador poder cadastrar novos livros, para conseguir cadastrar outros autores isso devera ser feito diretamente no SQL -->
                 <label for="" class="primeiro">Nome do autor:</label>
-                <input type="text" placeholder="Digite o nome do autor" name="usuario">
+                <input type="text" placeholder="Digite o nome do autor" name="nome" required>
                 <label for="">Data de nascimento:</label>
-                <input type="date" placeholder="Digite o nome do autor" name="email">
+                <input type="date" placeholder="Digite a data de nascimento do autor" name="data" required>
                 
                 <label for="">Nacionalidade:</label>
-                <input type="password" placeholder="Digite a nacionalidade do autor">
+                <input type="text" placeholder="Digite a nacionalidade do autor" name = "nacionalidade" required>
                 
                 <section class="button">
                     <!-- ? Botão que levara as informações sobre o novo livro para o banco de dados -->
