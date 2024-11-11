@@ -11,7 +11,6 @@
 .formulario{
     display: grid;
     place-items: center;
-    /* background-color: var(--cor_de_fundo); */
 }
 
 .titulo{
@@ -21,6 +20,10 @@
     border-radius: 15px;
     font-size: 20px;
     top: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -38,11 +41,11 @@ form{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.523);
 }
 
-/* form button{
-    position: absolute;
-    top: 290px;
-    right: 560px;
-} */
+form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .primeiro{
     margin-top: 20px;
