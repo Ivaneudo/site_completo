@@ -102,7 +102,7 @@
                     <th class="funcao">Desenvolvedores</th>
                     <li>HTML5, CSS4, JS: <a href="https://github.com/Ivaneudo" target="_blank">Ivaneudo</a></li>
                     <li>PHP: <a href=": https://github.com/Livia-Nasc " target="_blank">Livia</a></li>
-                    <li>MSQL: <a href="#" target="_blank">Italo</a></li>
+                    <li>MSQL: <a href="https://github.com/Tiagoltalo" target="_blank">Italo</a></li>
                 </tr>
             </ul>
         </section>

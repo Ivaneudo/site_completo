@@ -50,7 +50,8 @@
             <h1>Bookstore Online</h1>
         </section>
         <section class="apresentacao2">
-            <p>Conheça um pouco sobre <br> &#8595 a nossa livraria. &#8595</p>
+            <p>Conheça um pouco sobre</p>
+            <p> &#8595 a nossa livraria. &#8595</p>
         </section>
         <section class="infor">
             <!-- ? Blocos de apresentação sobre o site e por qual proposito ele foi desenvolvido -->

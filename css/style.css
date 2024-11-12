@@ -189,6 +189,8 @@ main{
 
 main .apresentacao{
     /* ? Muda o tamanho da fonte da apresentação do site e o quanto de margin ele terá no seu topo. */
+    display: flex;
+    justify-content: center;
     font-size: 45px;
     margin-top: 25px ;
 }
@@ -196,6 +198,9 @@ main .apresentacao{
 main .apresentacao2{
     /* ? Modifica o tamanho da fonte do texto que estigara o usuário a ler sobre o que é nosso site. */
     font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main .infor{
